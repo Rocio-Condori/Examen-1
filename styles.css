@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.azul {
+    background-color: darkblue;
+    height: 150px; 
+}
+
+.rojo {
+    background-color: red;
+    height: 300px; 
+}
+
+.caja-r {
+    display: flex;
+    justify-content: space-between;
+    height: 300px; 
+}
+
+.verde {
+    background-color: chartreuse;
+    width: 33%; 
+}
+
+.split-caja {
+    display: flex;
+    justify-content: space-between;
+    height: 300px; 
+}
+
+.plomo {
+    background-color: darkcyan;
+    width: 50%; 
+}
+
+.split-der {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.cafe {
+    background-color: maroon;
+    height: 49%; 
+}
